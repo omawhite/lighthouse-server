@@ -19,6 +19,7 @@
   "homepage": "https://github.com/omawhite/lighthouse-server#readme",
   "dependencies": {
     "@lhci/server": "^0.13.0",
+    "dotenv": "^16.4.5",
     "sqlite3": "^5.1.7"
   }
 }
