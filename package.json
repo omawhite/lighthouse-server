@@ -1,0 +1,23 @@
+{
+  "name": "lighthouse-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omawhite/lighthouse-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omawhite/lighthouse-server/issues"
+  },
+  "homepage": "https://github.com/omawhite/lighthouse-server#readme",
+  "dependencies": {
+    "@lhci/server": "^0.13.0",
+    "sqlite3": "^5.1.7"
+  }
+}
