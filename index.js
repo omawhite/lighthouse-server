@@ -5,7 +5,7 @@ createServer({
   port: process.env.PORT,
   storage: {
     storageMethod: 'sql',
-    sqlDialect: 'sqlite',
-    sqlDatabasePath: '/path/to/db.sql',
+    sqlDialect: 'postgres',
+    sqlConnectionUrl: process.env.DATABASE_URL,
   },
 }).then(({port}) => console.log('LHCI listening on port', port));
