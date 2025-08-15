@@ -21,5 +21,11 @@
     "@lhci/server": "^0.13.0",
     "dotenv": "^16.4.5",
     "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "volta": {
+    "node": "22.18.0"
   }
 }
